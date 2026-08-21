@@ -1,0 +1,17 @@
+﻿# Terraform state contains generated secrets IN PLAINTEXT. Never commit.
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.tfvars
+!example.tfvars
+
+# Credentials
+.env
+*.pem
+credentials
+
+# Scanner output
+scan-results/
+*.ocsf.json
