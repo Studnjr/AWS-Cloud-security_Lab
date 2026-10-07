@@ -4,7 +4,7 @@ A deliberately insecure AWS environment defined in Terraform, a scanning
 workflow to find the misconfigurations, and documented findings that fix each
 one in code.
 
-The point of this project is not the vulnerable Terraform — anyone can write an
+The point of this project is not the vulnerable Terraform anyone can write an
 open security group. The point is the **findings**: for each misconfiguration,
 a writeup that explains the impact honestly, fixes it as code, and discusses how
 you'd detect exploitation and how an attacker would evade that detection. That
@@ -75,7 +75,7 @@ scanner catches, which makes it the most impressive one to demonstrate.
 Checkov, tfsec, and Prowler will not produce identical findings. One flags things
 another misses; both flag things that aren't real problems in context (AWS-002).
 Reconciling three scanners and explaining the differences is a more valuable
-skill than running one — write it up as its own short document. Blindly trusting
+skill than running one write it up as its own short document. Blindly trusting
 a single scanner is the exact junior mistake this project lets you avoid.
 
 ## Tools you'll install locally
